@@ -1,8 +1,5 @@
 # MoSQL: a MongoDB → SQL streaming translator
 
-> _**MoSQL is no longer being actively maintained.**_
-> _If you are interested in helping maintain this repository, please let us know.  We would love for it to find a forever home with someone who can give it the love it needs!_
-
 At Stripe, we love MongoDB. We love the flexibility it gives us in
 changing data schemas as we grow and learn, and we love its
 operational properties. We love replsets. We love the uniform query
@@ -18,6 +15,10 @@ questions about data.
 
 So, we thought, why can't we have the best of both worlds? Thus:
 MoSQL.
+
+# Architecture
+
+![architecture](./docs/architecture.drawio.png)
 
 # MoSQL: Put Mo' SQL in your NoSQL
 
